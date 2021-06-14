@@ -63,7 +63,12 @@ const App = () => {
         <button onClick={draw}>🃏 Draw</button>
         <button onClick={shuffleDeck}>🔀 Shuffle</button>
         {/* <button>📸 Camera</button> */}
-        <input type="file" name="image" accept="image/*" capture="user" />
+        <input
+          type="file"
+          name="image"
+          accept="image/*"
+          capture="environment"
+        />
       </ButtonBar>
     </CardView>
   );
