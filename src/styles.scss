@@ -30,6 +30,11 @@ body {
 
   h1 {
     text-align: center;
+    margin: 2rem;
+  }
+
+  p {
+    margin: 2rem;
   }
 
   p:nth-child(2) {
@@ -39,12 +44,10 @@ body {
   }
 
   p:nth-child(3) {
-    margin: 2rem;
     flex: 1;
   }
 
   p:last-child {
-    margin: 2rem;
     text-align: center;
   }
 }
