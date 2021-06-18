@@ -66,7 +66,7 @@ const App = () => {
       <ButtonBar>
         <button onClick={draw}>🃏 Draw</button>
         <button onClick={shuffleDeck}>🔀 Shuffle</button>
-        <button>📸 Camera</button>
+        {/* <button>📸 Camera</button> */}
         {/* <input
           type="file"
           name="image"
